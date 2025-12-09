@@ -1,0 +1,28 @@
+{
+  "name": "property-hub-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack property management platform with admin panel",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "build-frontend": "cd frontend && npm run build",
+    "heroku-postbuild": "npm run install-all && npm run build-frontend"
+  },
+  "keywords": [
+    "real-estate",
+    "property-management",
+    "fullstack",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
