@@ -88,7 +88,7 @@
 
 ### Step 2: Push Code to GitHub
 ```bash
-cd c:\Users\tarun\OneDrive\Desktop\flipr-fullstack
+cd c:\Users\tarun\OneDrive\Desktop\property-hub-fullstack
 git remote add origin https://github.com/YOUR-USERNAME/property-hub-fullstack.git
 git branch -M main
 git push -u origin main

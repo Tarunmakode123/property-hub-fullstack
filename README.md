@@ -37,7 +37,7 @@ A complete full-stack web application featuring a landing page with project show
 ## 📁 Project Structure
 
 ```
-flipr-fullstack/
+property-hub-fullstack/
 ├── backend/
 │   ├── config/
 │   │   └── db.js

@@ -23,7 +23,7 @@
    - Click "Database Access" (left sidebar)
    - Click "Add New Database User"
    - Choose "Password" authentication
-   - Username: `flipruser` (or any name you want)
+   - Username: `propertyuser` (or any name you want)
    - Password: Click "Autogenerate Secure Password" or create your own
    - **IMPORTANT**: Save this password somewhere!
    - User Privileges: Select "Read and write to any database"
@@ -42,7 +42,7 @@
    - Click "Connect your application"
    - Copy the connection string (looks like):
      ```
-     mongodb+srv://flipruser:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
+     mongodb+srv://propertyuser:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
      ```
    - Replace `<password>` with your actual password from step 3
 
@@ -51,7 +51,7 @@
    - Replace the MONGODB_URI line with your connection string
    - Add a database name before the `?`:
      ```
-     MONGODB_URI=mongodb+srv://flipruser:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/fliprdb?retryWrites=true&w=majority
+     MONGODB_URI=mongodb+srv://propertyuser:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/propertydb?retryWrites=true&w=majority
      ```
 
 7. **Restart Backend**
@@ -67,7 +67,7 @@ If you have MongoDB installed locally:
 1. Open `backend\.env`
 2. Change MONGODB_URI to:
    ```
-   MONGODB_URI=mongodb://localhost:27017/fliprdb
+   MONGODB_URI=mongodb://localhost:27017/propertydb
    ```
 3. Make sure MongoDB service is running
 4. Restart backend: `npm start`
