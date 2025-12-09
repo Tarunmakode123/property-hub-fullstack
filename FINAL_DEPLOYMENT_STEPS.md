@@ -25,7 +25,7 @@
    - **Region:** Choose closest to you
 5. **Add Environment Variable:**
    - **Key:** `MONGODB_URI`
-   - **Value:** `mongodb+srv://propertyuser:TARUN%40123t@cluster0.agzo4y2.mongodb.net/propertydb?retryWrites=true&w=majority&appName=Cluster0`
+   - **Value:** Use your own MongoDB Atlas connection string (see setup instructions)
 6. **Click:** "Create Web Service"
 7. **Wait 5-10 minutes for deployment**
 8. **Copy your Backend URL** (looks like: `https://property-hub-backend.onrender.com`)
